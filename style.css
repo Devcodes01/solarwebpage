@@ -588,11 +588,12 @@ transition: scale 0.5s ease-in-out;
 }
 .mars{
     position: relative;
+    width: 100vw;
  
     height: 100vh;
     background-image: url("Mars.png");
     background-size: cover;
-    overflow: scroll;
+    /* overflow: scroll; */
     
 }
 .leftplanetcont{
@@ -1066,7 +1067,7 @@ font-stretch: extra-expanded;
     width: 100vw;
     background-image: url("Mars.png");
     background-size: cover;
-    overflow: scroll;
+    /* overflow: scroll; */
     
 }
 .leftplanetcont{
