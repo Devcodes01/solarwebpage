@@ -1032,7 +1032,7 @@ background: linear-gradient(315deg, #CD1013 1.19%, #FF0004 1.5%, #2500FF 94.46%)
 border-radius: 8px;
 font-size: 1.2vw;
 
-/* Inside auto layout */
+
 flex: none;
 order: 1;
 flex-grow: 0;
