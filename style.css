@@ -95,7 +95,7 @@ nav{
 }
 #earthdia
 {
-    width: 20vw;
+    width: 30vw;
     grid-column: 2/3;
     grid-row: 1/3;
 
@@ -839,6 +839,8 @@ max-width: fit-content;
         width: 10%;
         height: 70%;
     }
+
+ 
     .imgvenus{
         opacity: 1;
         position: absolute;
