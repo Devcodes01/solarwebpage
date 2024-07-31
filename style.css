@@ -860,7 +860,7 @@ transition: scale 0.5s ease-in-out;
         position: absolute;
        /* z-index: 100; */
        text-align: center;
-     top: 33vh;
+    
     padding: 2vh;
     width: 15vh;
     font-family: 'orbitron';
@@ -967,3 +967,75 @@ font-stretch: extra-expanded;
     font-size: 2.5vw;
  }
 } 
+@media (max-width:800px) and (max-height:800px){
+
+    .head1{
+        /* Let's get to know our solar system galaxy */
+    line-height: 7vmax;
+    /* line-break: 10vw; */
+    text-align: center;
+    /* Headings/H1 */
+    font-family: 'Orbitron';
+    font-weight: 900;
+    font-size: 4vw;
+    font-stretch: expanded;
+    font-stretch: extra-expanded;
+
+    width: 40vw;
+    
+    
+    }
+
+ 
+
+   .hcontent{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 4vh;
+    /* align-content: center; */
+    justify-content: center;
+    /* justify-items: center; */
+  
+    z-index: 100;
+    width: 47.7vw;
+    margin: 20px;
+    color: aliceblue;
+    top: 17vh;
+    left: 25vw;
+
+}
+.hcontent p{
+ 
+    font-size: 1.4vmax;
+    /* width: 50vw; */
+    height: 10vh;
+
+}
+
+
+.b1{
+   position: relative;
+    /* z-index: 100; */
+    text-align: center;
+    /* top: 50vh;  */
+ padding: 3vh;
+ width: 13vw;
+
+ font-family: 'orbitron';
+ font-weight: 800;
+ color: aliceblue;
+
+background: linear-gradient(315deg, #CD1013 1.19%, #FF0004 1.5%, #2500FF 94.46%);
+border-radius: 8px;
+font-size: 1.2vw;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+}
