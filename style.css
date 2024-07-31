@@ -1063,6 +1063,7 @@ font-stretch: extra-expanded;
     position: relative;
  
     height: 100vh;
+    width: 100vw;
     background-image: url("Mars.png");
     background-size: cover;
     overflow: scroll;
