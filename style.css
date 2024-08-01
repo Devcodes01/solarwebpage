@@ -680,6 +680,83 @@ max-width: fit-content;
     width: 30vw;
 }
 
+/* neptune ka kaam yaha se shuru hai */
+
+.neptune{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("uranus.png");
+    background-size: cover;
+    
+}
+
+ .neptupper{
+    position: absolute;
+/* width: 70vw; */
+height: 50vmin;
+   bottom: 0vh;
+ }
+#neptunecont{
+    display: flex;
+    flex-direction: column;
+   
+   left: 30vw;
+   top: 5vh;
+   margin-top: 1vh;
+    align-items: center;
+}
+#neptunecont p{
+    font-size: 1.6vw;
+}
+footer{
+    position: relative;
+    height: 52vmin;
+    width: 100vw;
+    background-image: url("Footer.png");
+    background-size: cover;
+}
+.neptunelower{
+    position: absolute;
+    top: 0vh;
+    height: 52vmin;
+}
+.nsub{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* width: 90vw; */
+    max-width: 85vw;
+    max-height: 40vh;
+    left: 5vw;
+    gap: 2vh;
+    padding: 10vh;
+    align-items: center;
+    bottom: 5vh;
+    background-image:url("lastnav.png") ;
+    background-size: cover;
+    border-radius: 5vw;
+    color: aliceblue;
+}
+.nsub p{
+  font-size: larger;
+}
+#textinput{
+    width: 30vw;
+    height: 20vh;
+
+}
+.bottomnav{
+    background-image: none;
+    width: 80vw;
+    border: none;
+    gap: 5vh;
+}
+.ntext{
+    font-family: 'orbitron';
+    font-weight: 900;
+    font-size: 4vw;
+}
 /* @media (max-width:1092px)
 {
     .merleft1{
